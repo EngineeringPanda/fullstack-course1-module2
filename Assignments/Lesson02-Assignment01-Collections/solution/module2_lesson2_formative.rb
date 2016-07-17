@@ -2,7 +2,7 @@
 arr = (1..10000).to_a.sample(23)
 p arr
 
-# This selects only elements that when divided by 3 have a remainder of 0 
+# This selects only elements that when divided by 3 have a remainder of 0
 # using the % (modulus) operator
 p arr.select { |element| element % 3 == 0 }
 
