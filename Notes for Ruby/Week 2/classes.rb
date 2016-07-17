@@ -55,7 +55,7 @@ class Person
     puts age
   end
   def age= (new_age)
-    @age = new_age unless new_age > 120
+    @age = new_age unless new_age > 120 
   end
 end
 
